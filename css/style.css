@@ -1,0 +1,736 @@
+@font-face {
+  font-family: 'Neo Sans Pro';
+  src: url('../fonts/NeoSansPro-Bold.eot');
+  src: local('Neo Sans Pro Bold'), local('NeoSansPro-Bold'),
+    url('../fonts/NeoSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeoSansPro-Bold.woff') format('woff'),
+    url('../fonts/NeoSansPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neo Sans Pro';
+  src: url('../fonts/NeoSansPro-Medium.eot');
+  src: local('Neo Sans Pro Medium'), local('NeoSansPro-Medium'),
+    url('../fonts/NeoSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeoSansPro-Medium.woff') format('woff'),
+    url('../fonts/NeoSansPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neo Sans Pro';
+  src: url('../fonts/NeoSansPro-LightItalic.eot');
+  src: local('Neo Sans Pro Light Italic'), local('NeoSansPro-LightItalic'),
+    url('../fonts/NeoSansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeoSansPro-LightItalic.woff') format('woff'),
+    url('../fonts/NeoSansPro-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neo Sans Pro';
+  src: url('../fonts/NeoSansPro-Regular.eot');
+  src: local('Neo Sans Pro'), local('NeoSansPro-Regular'),
+    url('../fonts/NeoSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeoSansPro-Regular.woff') format('woff'),
+    url('../fonts/NeoSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neo Sans Pro Ultra';
+  src: url('../fonts/NeoSansPro-Ultra.eot');
+  src: local('Neo Sans Pro Ultra'), local('NeoSansPro-Ultra'),
+    url('../fonts/NeoSansPro-Ultra.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeoSansPro-Ultra.woff') format('woff'),
+    url('../fonts/NeoSansPro-Ultra.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neo Sans Pro';
+  src: url('../fonts/NeoSansPro-BoldItalic.eot');
+  src: local('Neo Sans Pro Bold Italic'), local('NeoSansPro-BoldItalic'),
+    url('../fonts/NeoSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeoSansPro-BoldItalic.woff') format('woff'),
+    url('../fonts/NeoSansPro-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neo Sans Pro';
+  src: url('../fonts/NeoSansPro-Light.eot');
+  src: local('Neo Sans Pro Light'), local('NeoSansPro-Light'),
+    url('../fonts/NeoSansPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeoSansPro-Light.woff') format('woff'),
+    url('../fonts/NeoSansPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neo Sans Pro';
+  src: url('../fonts/NeoSansPro-Italic.eot');
+  src: local('Neo Sans Pro Italic'), local('NeoSansPro-Italic'),
+    url('../fonts/NeoSansPro-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeoSansPro-Italic.woff') format('woff'),
+    url('../fonts/NeoSansPro-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  font-family: 'Neo Sans Pro';
+}
+
+body h1 {
+  font-size: 4.8em;
+  text-transform: uppercase;
+  font-family: 'Neo Sans Pro Ultra';
+}
+
+body h2 {
+  font-size: 30px;
+  color: #3F3F3F;
+  text-transform: uppercase;
+  font-family: 'Neo Sans Pro Ultra';
+}
+
+body h3 {
+  font-size: 2.8em;
+  color: #3F3F3F;
+  display: inline-block;
+}
+
+body h4 {
+  font-size: 1.6em;
+}
+
+section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+hr {
+  margin-left: -30px;
+  background-color: #B2B2B2;
+}
+
+hr.vertical {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  height: 70px;
+  width: 1px;
+  background-color: #B2B2B2;
+}
+
+a.button {
+  color: #fff !important;
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color: #049CCC;
+  padding: 15px 40px;
+  border-radius: 5px;
+  text-decoration: none !important;
+}
+
+a.button:hover {
+  color: #000 !important;
+  cursor: pointer;
+}
+
+header {
+  background-image: url('../img/header/bg.png');
+  background-size: cover;
+}
+
+header .header {
+  padding-top: 35px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.header .nav-item a {
+  font-size: 1.6em;
+  color: #fff;
+}
+
+.header .time h4 {
+  font-weight: 300;
+}
+
+.header .tel a{
+  text-decoration: none;
+  color:#Fff;
+  font-size: 2.1em;
+}
+
+.header .soc img {
+  padding-left: 10px;
+}
+
+.header .text h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 4.8em;
+}
+
+.header .text p {
+  color: #fff;
+  font-size: 2.4em;
+  font-weight: 300;
+  padding: 15px 0 30px 0;
+}
+/* .block2 {
+  background-color: #000000;
+} */
+.block2 .item h3 {
+  vertical-align: top;
+  color: #049CCC;
+}
+.block2 p {
+  font-size: 16px;
+  /* color: #fff; */
+}
+
+.block2 .right img {
+  /* height: 500px; */
+  border-radius: 3rem;
+  max-height: 100%;
+}
+
+.block3 {
+  padding: 50px 0;
+  background-image: url('../img/block3/bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.block3 .kwiz h2 {
+  font-weight: bold;
+  margin: 20px 0;
+  text-transform: none;
+}
+
+.block3 .kwiz p {
+  font-size: 2em;
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.block3 .kwiz .progress {
+  width: 40%;
+  margin: 10px 0;
+  height: 20px;
+  border-radius: 15px;
+  background-color: #C0C2C3;
+}
+
+.block3 .kwiz .progress-bar {
+  background-color: #D14230;
+}
+
+.block3 .form-check{
+  padding-top: 40px
+}
+
+.block3 .form-check input[type="radio"]:checked,
+.block3 .form-check input[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.block3 .form-check input[type="radio"]:checked + label,
+.block3 .form-check input[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.block3 .form-check input[type="radio"]:checked + label:before,
+.block3 .form-check input[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #D14230;
+    border-radius: 100%;
+    background: #fff;
+}
+.block3 .form-check input[type="radio"]:checked + label:after,
+.block3 .form-check input[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: #D14230;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.block3 .form-check input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.block3 .form-check input[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.block3 .form-check label{
+  font-size: 2em;
+  font-family: "Neo Sans Pro";
+  font-weight: 500;
+  font-style: normal;
+}
+
+.block3 .button {
+  color: #fff;
+  border: none;
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color: #049CCC;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+
+.block3 form {
+  margin-top: 30px;
+}
+
+.block3 form input[type="text"] {
+  margin-right: 15px;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #3F3F3F;
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6em;
+  height: 55px;
+}
+
+.block3 form input[type="text"]::placeholder {
+  color: #3F3F3F;
+  padding: 20px;
+}
+
+.block3 form input[type="text"] {
+  padding: 15px;
+  color: #3F3F3F;
+}
+
+.block3 form .button:hover {
+  color: #000;
+}
+
+.block4 .title {
+  font-size: 2.4em;
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.block4 .button {
+  margin-top: 25px;
+  color: #3f3f3f;
+}
+
+.block4 .item {
+  padding-bottom: 30px;
+}
+.block4 .item .img {
+  max-width: 100%;
+}
+.block4 .item img {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+}
+
+
+.block5 {
+  background-image: url('../img/block5/bg.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 550px;
+}
+
+.block5 .row {
+  padding-top: 100px;
+}
+
+.block5 p {
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.2em;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.block6 .title {
+  padding-bottom: 50px;
+}
+
+.block6 p {
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.8em;
+  color: #000;
+}
+
+.jcarousel-wrapper {
+  margin: 20px 60px;
+  position: relative;
+  border: 10px solid #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/** Carousel **/
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.jcarousel ul {
+  width: 10000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+}
+
+.jcarousel li {
+  width: auto;
+  float: left;
+  border: 1px solid #fff;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.jcarousel img {
+  display: block;
+  max-width: 100%;
+  height: 450px !important;
+}
+
+/** Carousel Controls **/
+.jcarousel-control-prev,
+.jcarousel-control-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  text-decoration: none;
+}
+
+.jcarousel-control-prev {
+  left: -80px;
+}
+
+.jcarousel-control-next {
+  right: -80px;
+}
+
+/** Carousel Pagination **/
+.jcarousel-pagination {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  margin: 0;
+}
+
+.jcarousel-pagination a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  height: 10px;
+  width: 10px;
+  line-height: 10px;
+  background: #fff;
+  color: #4E443C;
+  border-radius: 10px;
+  text-indent: -9999px;
+  margin-right: 7px;
+  -webkit-box-shadow: 0 0 2px #4E443C;
+  -moz-box-shadow: 0 0 2px #4E443C;
+  box-shadow: 0 0 2px #4E443C;
+}
+
+.jcarousel-pagination a.active {
+  background: #4E443C;
+  color: #fff;
+  opacity: 1;
+  -webkit-box-shadow: 0 0 2px #F0EFE7;
+  -moz-box-shadow: 0 0 2px #F0EFE7;
+  box-shadow: 0 0 2px #F0EFE7;
+}
+
+.block8 {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.block8 .info {
+  background-image: url('../img/block8/bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 370px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.block8 .wrapper {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+
+.block8 p {
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.9em;
+}
+
+.block8 .button {
+  color: #fff;
+  border: none;
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color: #049CCC;
+  padding: 15px 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.block8 form {
+  margin-top: 30px;
+}
+
+.block8 input {
+  margin-right: 15px;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6em;
+  height: 55px;
+}
+
+.block8 input::placeholder {
+  color: #fff;
+  padding: 20px;
+}
+
+.block8 input {
+  padding: 15px;
+  color: #fff;
+}
+
+.block8 .button:hover {
+  color: #000;
+}
+
+footer {
+  background-color: #3f3f3f;
+}
+
+footer .first p {
+  font-size: 1.6em;
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+footer .first a {
+  font-size: 2em;
+  font-family: 'Neo Sans Pro';
+  font-weight: bold;
+  text-decoration: underline;
+  color: #fff;
+}
+
+footer .second .nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6em;
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+}
+
+footer .second hr {
+  color: #fff;
+  margin: 15px 120px;
+}
+
+footer .second p {
+  color: #fff;
+  font-size: 1.4em;
+  font-family: 'Neo Sans Pro';
+  font-weight: 300;
+  font-style: normal;
+}
+
+footer .third h4 {
+  color: #fff;
+  font-size: 1.6em;
+  font-family: 'Neo Sans Pro';
+  font-weight: 300;
+}
+
+footer .third a{
+  font-family: 'Neo Sans Pro Ultra';
+  font-size: 2em;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .third .soc img {
+  padding-left: 10px;
+}
+
+/* modal1 */
+#modal1 .modal-dialog {
+  max-width: 380px !important;
+}
+
+#modal1 .modal-header {
+  border: none;
+  height: 30px;
+}
+
+#modal1 .modal-body h2 {
+  font-size: 2.4em;
+}
+
+#modal1 .modal-body p {
+  font-size: 1.8em;
+}
+
+#modal1 .modal-body input {
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6em;
+  height: 55px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  width: 230px;
+  padding: 15px;
+}
+
+#modal1 .modal-body input::placeholder {
+  text-align: center;
+}
+
+#modal1 .modal-body button {
+  color: #fff;
+  border: none;
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color: #049CCC;
+  padding: 15px 40px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+#modal1 .modal-body button:hover {
+  color: #000;
+}
+
+/* modal2 */
+#modal2 .modal-header {
+  border: none;
+  height: 30px;
+}
+
+#modal2 .modal-body h2 {
+  margin-bottom: 10px;
+  font-size: 2.4em;
+}
+
+#modal2 .modal-body img {
+  width: 100%;
+  max-height: 500px;
+}
+
+#modal2 .modal-body p {
+  margin-top: 10px;
+  font-size: 1.8em;
+}
+
+#modal2 .modal-body input {
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-family: 'Neo Sans Pro';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6em;
+  height: 45px;
+  border: 1px solid gray;
+  width: 200px;
+  padding: 15px;
+  margin: 15px 5px;
+}
+
+#modal2 .modal-body input::placeholder {
+  text-align: center;
+}
+
+#modal2 .modal-body button {
+  color: #fff;
+  border: none;
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color: #049CCC;
+  padding: 15px 40px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+#modal2 .modal-body button:hover {
+  color: #000;
+}
