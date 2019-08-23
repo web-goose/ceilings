@@ -181,15 +181,19 @@ header .header {
   height: 100%;
 }
 .logo img {
-  height: 9rem;
-  width: 12rem;
+  height: 11rem;
+  width: 14rem;
   /* padding-bottom: 2rem; */
 }
 .header .soc img {
   padding-left: 10px;
 }
+.header h4 {
+  font-size: 19px;
+}
 .header h5 {
   color: #fff;
+  font-size: 15px;
 }
 
 .header .text h1 {
