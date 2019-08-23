@@ -147,7 +147,7 @@ a.button {
 }
 
 a.button:hover {
-  color: #000 !important;
+  background-color: rgb(4, 130, 172) !important;
   cursor: pointer;
 }
 
@@ -176,9 +176,20 @@ header .header {
   color:#Fff;
   font-size: 2.1em;
 }
-
+.logo {
+  width: 100%; 
+  height: 100%;
+}
+.logo img {
+  height: 9rem;
+  width: 12rem;
+  /* padding-bottom: 2rem; */
+}
 .header .soc img {
   padding-left: 10px;
+}
+.header h5 {
+  color: #fff;
 }
 
 .header .text h1 {
@@ -196,7 +207,7 @@ header .header {
 /* .block2 {
   background-color: #000000;
 } */
-.block2 .item h3 {
+.block2 h2 {
   vertical-align: top;
   color: #049CCC;
 }
@@ -342,7 +353,7 @@ header .header {
 }
 
 .block3 form .button:hover {
-  color: #000;
+  background-color:  rgb(4, 130, 172);
 }
 
 .block4 .title {
@@ -563,7 +574,7 @@ header .header {
 }
 
 .block8 .button:hover {
-  color: #000;
+  background-color:  rgb(4, 130, 172);
 }
 
 footer {
@@ -677,7 +688,7 @@ footer .third .soc img {
 }
 
 #modal1 .modal-body button:hover {
-  color: #000;
+  background-color:  rgb(4, 130, 172);
 }
 
 /* modal2 */
@@ -732,5 +743,5 @@ footer .third .soc img {
 }
 
 #modal2 .modal-body button:hover {
-  color: #000;
+  background-color:  rgb(4, 130, 172);
 }
