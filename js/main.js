@@ -1,9 +1,13 @@
-$(document).on("change", "#kwiz input[type=radio][name=question]", function() {
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+$(document).on("change", "#kwiz input[type=radio][name=question]", function () {
   $.ajax({
     type: 'POST',
     url: 'hundler.php',
     data: 'kwiz_f=1&q=' + $('.kwiz h2').html() + "&a=" + $(this).val() + '&question=' + $(this).attr('question'),
-    success: function(data) {
+    success: function (data) {
       $('.kwiz').html(data);
     }
   });
@@ -17,7 +21,7 @@ function kwiz_finish() {
       type: 'POST',
       url: 'hundler.php',
       data: 'kwiz_f=1&kwiz_finish=1&name=' + $(name).val() + "&phone=" + $(phone).val(),
-      success: function(data) {
+      success: function (data) {
         $('.kwiz').html(data);
       }
     });
@@ -30,7 +34,7 @@ function Next() {
       type: 'POST',
       url: 'hundler.php',
       data: 'kwiz_f=1&q=' + $('.kwiz h2').html() + "&a=" + $('#question3').val() + '&question=' + $('#question3').attr('question'),
-      success: function(data) {
+      success: function (data) {
         $('.kwiz').html(data);
       }
     });
@@ -42,7 +46,7 @@ function More(number) {
     type: 'POST',
     url: 'hundler.php',
     data: 'more_f=1&more_number=' + number,
-    success: function(data) {
+    success: function (data) {
       $('#modal_more').html(data);
       $('#modal2').modal('show');
     }
@@ -55,7 +59,7 @@ function Send_Request(name, phone) {
       type: 'POST',
       url: 'hundler.php',
       data: 'send_f=1&name=' + $(name).val() + "&phone=" + $(phone).val(),
-      success: function(data) {
+      success: function (data) {
         $(name).val("");
         $(phone).val("");
         $('#modal1').modal('hide');
