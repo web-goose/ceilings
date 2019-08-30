@@ -780,10 +780,14 @@ footer .third .soc img {
   font-size: 20px;
 }
 .calculator .range-slider span {
-  font-size: 18px; 
+  font-size: 18px;
+  font-weight: 500;
+  color: #666; 
 }
 .calculator .custom-radio label {
   text-transform: uppercase;
+  font-weight: 500;
+  color: #666; 
   font-size: 24px;
 }
 .calculator .custom-control {
@@ -933,4 +937,16 @@ footer .third .soc img {
 .calculator .result span {
   font-weight: 700;
   color: #666;
+}
+
+.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+  border-top-color: #17a2b8;
+}
+.tooltip-inner {
+  max-width: 40rem; 
+  color: #fff;
+  font-size: 20px;
+  padding: 1.5rem;
+  background-color: #049CCC;
+  border-radius: 1rem;
 }

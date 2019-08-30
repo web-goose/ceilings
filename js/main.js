@@ -2,43 +2,41 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
-$(document).on("change", "#kwiz input[type=radio][name=question]", function () {
-  $.ajax({
-    type: 'POST',
-    url: 'hundler.php',
-    data: 'kwiz_f=1&q=' + $('.kwiz h2').html() + "&a=" + $(this).val() + '&question=' + $(this).attr('question'),
-    success: function (data) {
-      $('.kwiz').html(data);
-    }
-  });
-});
+function onChange(param) {
+  $(`#${param.id}`).siblings().text(param.value);
+};
 
-function kwiz_finish() {
-  name = "#kwiz_name";
-  phone = "#kwiz_phone";
-  if ($(phone).val()) {
-    $.ajax({
-      type: 'POST',
-      url: 'hundler.php',
-      data: 'kwiz_f=1&kwiz_finish=1&name=' + $(name).val() + "&phone=" + $(phone).val(),
-      success: function (data) {
-        $('.kwiz').html(data);
-      }
-    });
-  }
-}
+function calc(a, b, c, d) {
 
-function Next() {
-  if ($('#question3').val()) {
-    $.ajax({
-      type: 'POST',
-      url: 'hundler.php',
-      data: 'kwiz_f=1&q=' + $('.kwiz h2').html() + "&a=" + $('#question3').val() + '&question=' + $('#question3').attr('question'),
-      success: function (data) {
-        $('.kwiz').html(data);
-      }
-    });
+  c = parseInt(c) * 150;
+  d = parseInt(d) * 150;
+
+  var option = $('.radio-buttons input[type="radio"]:checked').val();
+
+  switch (option) {
+    case 'economy':
+      a = parseInt(a) * 290;
+      b = parseInt(b) * 300;
+      break;
+    case 'standart':
+      a = parseInt(a) * 370;
+      b = parseInt(b) * 400;
+      break;
+    case 'lux':
+      a = parseInt(a) * 470;
+      b = parseInt(b) * 500;
+      break;
   }
+
+  var price;
+  var boxes = 0;
+
+  $(`.check-boxes input[type='checkbox']:checked`).each(function () {
+    boxes += parseInt($(this).attr('value'));
+  })
+
+  price = a + b + c + d + boxes;
+  $('#result').text(`${price}` + " руб.");
 }
 
 function More(number) {
