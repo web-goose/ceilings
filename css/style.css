@@ -777,10 +777,10 @@ footer .third .soc img {
 }
 .calculator label {
   font-family: 'Neo Sans Pro';
-  font-size: 20px;
+  font-size: 18px;
 }
 .calculator .range-slider span {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #666; 
 }
@@ -788,7 +788,7 @@ footer .third .soc img {
   text-transform: uppercase;
   font-weight: 500;
   color: #666; 
-  font-size: 24px;
+  font-size: 20px;
 }
 .calculator .custom-control {
   margin: 0 1rem;
@@ -799,10 +799,10 @@ footer .third .soc img {
 .calculator .custom-control span[data-toggle="tooltip"] {
   color: #049CCC;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 14px;
   margin: -1rem 0 0 0.5rem;
-  width: 2.1rem;
-  height: 2.1rem;
+  width: 1.9rem;
+  height: 1.9rem;
   border-radius: 50%;
   border: 0.1rem solid #049CCC;
 }
@@ -823,9 +823,9 @@ footer .third .soc img {
 }
 /* radio button */
 .custom-radio .checkmark {
-  height: 2rem;
-  width: 2rem;
-  margin: 0.4rem 1rem;
+  height: 1.8rem;
+  width: 1.8rem;
+  margin: 0.3rem 1rem;
   background-color: #fff;
   border-radius: 50%;
   border: 0.1rem solid #049CCC;
@@ -846,7 +846,7 @@ footer .third .soc img {
 .custom-checkbox .checkmark {
   height: 2rem;
   width: 2rem;
-  margin: 0.4rem 1rem;
+  margin: 0.2rem 1rem;
   background-color: #fff;
   border-radius: 0.5rem;
   border: 0.1rem solid #049CCC;
@@ -872,14 +872,14 @@ footer .third .soc img {
   margin-bottom: 2rem;
 }
 .range-slider sup {
-  font-size: 12px;
+  font-size: 10px;
 }
 .calculator .slider {
   -webkit-appearance: none;
   margin: 0 2rem;
   outline: none;
   width: 40rem;
-  height: 1.5rem;
+  height: 1.2rem;
   opacity: 0.8;
   border-radius: 3rem;
   border: 0.1rem solid #049CCC;
@@ -893,16 +893,16 @@ footer .third .soc img {
   -webkit-appearance: none;
   appearance: none;
   padding: 0.34rem;
-  width: 3rem;
-  height: 3rem;
+  width: 2.3rem;
+  height: 2.3rem;
   border-radius: 2rem; 
   background: #049CCC;
   cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 3rem;
-  height: 3rem;
+  width: 2.3rem;
+  height: 2.3rem;
   border-radius: 50%;
   background: #049CCC;
   cursor: pointer;
@@ -910,27 +910,12 @@ footer .third .soc img {
 
 /*  */
 
-
-.calculator button {
-  color: #fff;
-  border: none;
-  font-size: 1.7em;
-  font-weight: bold;
-  background-color: #049CCC;
-  padding: 15px 40px;
-  border-radius: 5px;
-  margin-top: 3rem;
-  transition: linear 0.1s;
-}
-.calculator button:hover {
-  background-color:  rgb(4, 130, 172);
-}
 .calculator .result {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 3rem;
 }
 .calculator .result p {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   color: #049CCC;
 }
@@ -945,7 +930,7 @@ footer .third .soc img {
 .tooltip-inner {
   max-width: 40rem; 
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   padding: 1.5rem;
   background-color: #049CCC;
   border-radius: 1rem;
