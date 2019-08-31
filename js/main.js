@@ -11,7 +11,7 @@ function calc(a, b, c, d) {
   c = parseInt(c) * 150;
   d = parseInt(d) * 150;
 
-  var option = $('.radio-buttons input[type="radio"]:checked').val();
+  let option = $('.radio-buttons input[type="radio"]:checked').val();
 
   switch (option) {
     case 'economy':
@@ -28,8 +28,8 @@ function calc(a, b, c, d) {
       break;
   }
 
-  var price;
-  var boxes = 0;
+  let price;
+  let boxes = 0;
 
   $(`.check-boxes input[type='checkbox']:checked`).each(function () {
     boxes += parseInt($(this).attr('value'));
