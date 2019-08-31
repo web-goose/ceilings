@@ -109,7 +109,7 @@
         <div class="col-12 text-center">
           <h2>Расчитайте стоимость</h2>
         </div>
-        <div class="calculator-wrapper mx-auto">
+        <div class="calculator-wrapper mx-auto" oninput='calc(range1.value, range2.value, range3.value, range4.value);'>
           <div class="col-12 text-center radio-buttons">
             <label class="custom-control custom-radio custom-control-inline">
               <input class="radio" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="economy" checked>
@@ -180,9 +180,6 @@
             </label>
           </div>
 
-          <div class="col-12 text-center">
-            <button onClick='calc(range1.value, range2.value, range3.value, range4.value);'>Расчитать</button>
-          </div>
           <div class="col-12 text-center result">
             <p>Итого:
               <span id="result">0 руб.</span>
