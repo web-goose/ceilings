@@ -2,6 +2,11 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
+var lazyLoadInstance = new LazyLoad({
+  elements_selector: ".lazy"
+  // ... more custom settings?
+});
+
 function onChange(param) {
   $(`#${param.id}`).siblings().text(param.value);
 };
