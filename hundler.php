@@ -236,7 +236,7 @@ if ($_POST['kwiz_f'])
 
 if($_POST['send_f'])
 {
-  $to = "agafonovpasha@gmail.com";
+  $to = "@gmail.com";
   $subject = "Заявка";
   $from = "Оконный-страж <root@Оконный-страж.рф>";
   $charset = "utf-8";

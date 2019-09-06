@@ -271,8 +271,6 @@
               <form>
                 <input type="text" id="block8_name" placeholder="Ваше имя">
                 <input type="text" id="block8_phone" placeholder="Ваш телефон*" required>
-                <input type="text" id="block8_time" placeholder="Удобное время звонка*" required>
-                <input type="text" id="block8_date" placeholder="Удобное время звонка*" required>
                 <button class="button" type="submit" onclick="Send_Request('#block8_name', '#block8_phone')">Отправить
                   заявку</a>
               </form>
@@ -354,6 +352,8 @@
           <form action="javascript:void(0);">
             <input type="text" id="name" placeholder="Ваше имя"><br />
             <input type="text" id="phone" required placeholder="Ваш телефон*"><br />
+            <input type="text" id="block8_time" placeholder="Удобное время звонка*" required>
+            <input type="text" id="block8_date" placeholder="Удобное дата замера*" required>
             <button type="submit" onclick="Send_Request('#name', '#phone')">Отправить заявку</button>
           </form>
         </div>
