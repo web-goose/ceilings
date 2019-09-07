@@ -13,7 +13,13 @@ function onChange(param) {
 
 function calc(a, b, c, d) {
 
-  c = parseInt(c) * 150;
+  if (c > 4) {
+    cc = c - 4;
+    c = cc * 150;
+  }
+  else
+    c = 0;
+
   d = parseInt(d) * 150;
 
   let option = $('.radio-buttons input[type="radio"]:checked').val();
