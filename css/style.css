@@ -979,3 +979,23 @@ footer .third .soc img {
 .block9 p {
   font-size: 16px;
 }
+
+#modal2 .accordion h2 {
+  font-size: 1.2em;
+}
+#modal2 .accordion .card-header {
+  border: none;
+}
+#modal2 .accordion button {
+  margin-top: 3rem;
+  background-color: #F7F7F7;
+  color: #049CCC;
+}
+#modal2 .accordion button:hover {
+  background-color: #F7F7F7;
+  color: #049CCC;
+}
+#modal2 .accordion ul li {
+  padding: 0.2rem 0;
+  font-size: 1.8em;
+}

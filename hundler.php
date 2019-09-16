@@ -12,8 +12,92 @@ if($_POST['more_f'])
           <div class="modal-body text-center">
             <h2>Классические и фактурные натяжные потолки</h2>
             <img src="img/block4/1.png" alt="Картинка">
-            <p>​Классика - всегда выигрышный вариант. Один уровень, множество цветов и фактур
-            <br /><br />Оставьте заявку прямо сейчас и в течение 5 минут с Вами свяжется эксперт,
+            <div id="accordion" class="accordion text-left">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn-link" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                    &#9660 Глянцевые натяжные потолки
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <ul>
+                    <li>Глянцевые натяжные потолки - это блестящие полотна с лаковой, отражающей свет и предметы поверхность,
+                      зрительно увеличивающие и осветляющие помещения
+                    </li>
+                    <li>Слегка поглощают свет, дают отражение</li>
+                    <li>Более 150 цветов</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    &#9660 Сатиновые натяжные потолки
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <ul>
+                    <li>Сатиновые натяжные потолоки выступают аналогом натуральной ткани с легким перламутровым блеском и едва
+                      заметной текстурой
+                    </li>
+                    <li>Рассеивают свет, не дают отражения</li>
+                    <li>Более 100 цветов</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn-link" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    &#9660 Декоративные потолки
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  <ul>
+                    <li>Декоративные натяжные потолки включают в себя различные типы пленки - замшевые и металлик, зеркальные и
+                      перламутровые, шелковые и парчовые, галактические, узорчатые и с рисунками - мы предлагаем огромный выбор
+                      элитных фактур, подходящих для стильных помещений, оформленной в любой цветовой гамме</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="4">
+                <h2 class="mb-0">
+                  <button class="btn-link" data-toggle="collapse" data-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    &#9660 Матовые потолки
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  <ul>
+                    <li>Матовые натяжные потолки имитируют окрашенное перекрытие, с традиционным внешним видом и универсальным
+                      применением. Идеальное решение для любого помещения.
+                    </li>
+                    <li>Не рассеивает свет, не дает отражения</li>
+                    <li>Более 150 цветов</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+            <p>Оставьте заявку прямо сейчас и в течение 5 минут с Вами свяжется эксперт,
             предложит несколько вариантов решения и сориентирует по цене</p>
             <form action="javascript:void(0);">
               <input type="text" id="more_name" placeholder="Ваше имя">
