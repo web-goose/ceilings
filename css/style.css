@@ -757,7 +757,6 @@ footer .third .soc img {
   background-color: #049CCC;
   padding: 15px 40px;
   border-radius: 5px;
-  margin-bottom: 30px;
   transition: linear 0.1s;
 }
 
@@ -987,7 +986,6 @@ footer .third .soc img {
   border: none;
 }
 #modal2 .accordion button {
-  margin-top: 3rem;
   background-color: #F7F7F7;
   color: #049CCC;
 }
