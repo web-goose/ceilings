@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @font-face {
   font-family: 'Neo Sans Pro';
   src: url('../fonts/NeoSansPro-Bold.eot');
@@ -90,9 +91,14 @@ html, body {
   height: 100%;
   width: 100%;
   font-size: 10px;
-  font-family: 'Neo Sans Pro';
+  font-family: 'M PLUS 1p', sans-serif;
+  font-weight: 400;
 }
-
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8em;
+  font-weight: 400;
+}
 body h1 {
   font-size: 4.8em;
   text-transform: uppercase;
@@ -322,7 +328,7 @@ header .header {
 }
 
 .block3 .form-check label{
-  font-size: 2em;
+  font-size: 20px;
   font-family: "Neo Sans Pro";
   font-weight: 500;
   font-style: normal;
@@ -645,9 +651,8 @@ footer .third h4 {
   font-weight: 300;
 }
 
-footer .third a{
-  font-family: 'Neo Sans Pro Ultra';
-  font-size: 2em;
+footer .third a {
+  font-size: 2.1em;
   color: #fff;
   text-decoration: none;
 }
@@ -873,7 +878,7 @@ footer .third .soc img {
   margin-bottom: 2rem;
 }
 .range-slider sup {
-  font-size: 10px;
+  font-size: 1em;
 }
 .calculator .slider {
   -webkit-appearance: none;
@@ -975,9 +980,6 @@ footer .third .soc img {
   height: 23rem;
   width: 100%;
 }
-.block9 p {
-  font-size: 1.8em;
-}
 
 #modal2 .accordion h2 {
   font-size: 1.2em;
@@ -994,6 +996,7 @@ footer .third .soc img {
   color: #049CCC;
 }
 #modal2 ul li {
+  font-family: 'Roboto', sans-serif;
   padding: 0.2rem 0;
-  font-size: 1.6em;
+  font-size: 1.8em;
 }
