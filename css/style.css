@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
 @font-face {
   font-family: 'Neo Sans Pro';
   src: url('../fonts/NeoSansPro-Bold.eot');
@@ -93,6 +93,9 @@ html, body {
   font-size: 10px;
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: 400;
+}
+label {
+  font-family: 'Roboto', sans-serif;
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -782,7 +785,6 @@ footer .third .soc img {
   margin: 4rem 0;
 }
 .calculator label {
-  font-family: 'Neo Sans Pro';
   font-size: 18px;
 }
 .calculator .range-slider span {
