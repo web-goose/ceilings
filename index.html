@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162%22%3E"></script>
 </head>
 
 <body>
@@ -33,6 +32,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#guarantee">Наши гарантии</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" onclick="$('#modal4').modal('show');">Отзывы</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-12 text-lg-right text-center my-3 text-white">
@@ -45,7 +47,7 @@
                         </a>
                     </div>
                     <div class="soc">
-                        <a onclick="$('#modal4').modal('show');"><img src="img/header/vk.png" alt="Vk"></a>
+                        <a href="https://vk.com/ivnpotolok"><img src="img/header/vk.png" alt="Vk"></a>
                     </div>
                 </div>
             </div>
@@ -334,24 +336,6 @@
     </div>
 </section>
 
-<section class="comments">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 my-5 text-center">
-                <h2>Комментарии</h2>
-            </div>
-            <div class="col-10 mx-auto">
-                <script type="text/javascript">
-                    VK.init({apiId: 7131010, onlyWidgets: true});
-                </script>
-                <div id="vk_comments"></div>
-                <script type="text/javascript">
-                    VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-                </script>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="block8">
     <div class="container">
@@ -366,7 +350,7 @@
                             <input type="text" id="block8_phone" placeholder="Ваш телефон*" required>
                             <button class="button" type="submit"
                                     onclick="Send_Request('#block8_name', '#block8_phone')">Отправить
-                                заявку</a>
+                                заявку</button>
                         </form>
                     </div>
                 </div>
@@ -408,7 +392,7 @@
                     </a>
                 </div>
                 <div class="soc">
-                  <a onclick="$('#modal4').modal('show');"><img src="img/header/vk.png" alt="Vk"></a>
+                    <a href="https://vk.com/ivnpotolok"><img src="img/header/vk.png" alt="Vk"></a>
                 </div>
             </div>
         </div>
@@ -457,21 +441,23 @@
      aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content text-center">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p> Отзывы на других сайтах часто обезличены или не вызывают доверия. Хочется быть увереным, что отзыв
-              написал реальный человек, а не создатель сайта или руководитель компании.
-              Именно поэтому мы приянли решение создать этот раздел в нашей группе в социальной сети "ВКонтакте".
-              Во первых это исключает возможность удаления негативных отзывов, а во вторых Вы всегда можете обратиться
-              к участникам группы , узнать как прошел монтаж и может ли клиент порекомендовать нас другим людям.
-              <br/> У НАС ТОЛЬКО РЕАЛЬНЫЕ ОТЗЫВЫ</p>
-            <button class="submit" type="submit" onclick="window.open('https://vk.com/topic-163668033_40243131')">Открыть отзывы
-            </button>
-          </div>
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p> Отзывы на других сайтах часто обезличены или не вызывают доверия. Хочется быть увереным, что отзыв
+                    написал реальный человек, а не создатель сайта или руководитель компании.
+                    Именно поэтому мы приянли решение создать этот раздел в нашей группе в социальной сети "ВКонтакте".
+                    Во первых это исключает возможность удаления негативных отзывов, а во вторых Вы всегда можете
+                    обратиться
+                    к участникам группы , узнать как прошел монтаж и может ли клиент порекомендовать нас другим людям.
+                    <br/> У НАС ТОЛЬКО РЕАЛЬНЫЕ ОТЗЫВЫ</p>
+                <button class="submit" type="submit" onclick="window.open('https://vk.com/topic-163668033_40243131')">
+                    Открыть отзывы
+                </button>
+            </div>
         </div>
     </div>
 </div>
