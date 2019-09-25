@@ -905,3 +905,18 @@ footer .third .soc img {
   padding: 0.2rem 0;
   font-size: 18px;
 }
+
+
+#modal4 p {
+  margin-top: 10px;
+  font-size: 1.8em;
+}
+#modal4 .submit{
+  color: #fff;
+  border: none;
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color: #049CCC;
+  padding: 15px 40px;
+  border-radius: 5px;
+}

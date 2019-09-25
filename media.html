@@ -47,7 +47,7 @@
                             <!-- <a href="https://www.instagram.com/master_po_oknam/"><img src="img/header/insta.png" alt="Instagram"></a>
                           <a href="https://wa.me/79172824974"><img src="img/header/whatsup.png" alt="WhatsUp"></a>
                           <a href="tg://resolve?domain=Pashka_kzn"><img src="img/header/telegram.png" alt="Telegram"></a> -->
-                            <a href="#"><img src="img/header/vk.png" alt="Vk"></a>
+                            <a onclick="$('#modal4').modal('show');"><img src="img/header/vk.png" alt="Vk"></a>
                         </div>
                     </div>
                 </div>
@@ -321,13 +321,36 @@
                         <!-- <a href="https://www.instagram.com/master_po_oknam/"><img src="img/header/insta.png" alt="Instagram"></a>
                     <a href="https://wa.me/79172824974"><img src="img/header/whatsup.png" alt="WhatsUp"></a>
                     <a href="tg://resolve?domain=Pashka_kzn"><img src="img/header/telegram.png" alt="Telegram"></a> -->
-                        <a href="#"><img src="img/header/vk.png" alt="Vk"></a>
+                        <a onclick="$('#modal4').modal('show');"><img src="img/header/vk.png" alt="Vk"></a>
                     </div>
                 </div>
             </div>
         </div>
         </div>
     </footer>
+
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p> Отзывы на других сайтах часто обезличены или не вызывают доверия. Хочется быть увереным, что отзыв
+                        написал реальный человек, а не создатель сайта или руководитель компании.
+                        Именно поэтому мы приянли решение создать этот раздел в нашей группе в социальной сети "ВКонтакте".
+                        Во первых это исключает возможность удаления негативных отзывов, а во вторых Вы всегда можете обратиться
+                        к участникам группы , узнать как прошел монтаж и может ли клиент порекомендовать нас другим людям.
+                        <br/> У НАС ТОЛЬКО РЕАЛЬНЫЕ ОТЗЫВЫ</p>
+                    <button class="submit" type="submit" onclick="window.open('https://vk.com/topic-163668033_40243131')">Открыть отзывы
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
