@@ -441,7 +441,7 @@ header .header {
 }
 
 .block8 .info {
-  background-image: url('../img/block8/bg.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/block8/1.jpg');
   background-position: center;
   background-size: cover;
   height: 370px;
