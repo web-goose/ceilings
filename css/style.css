@@ -198,8 +198,11 @@ header .header {
   width: 14rem;
   /* padding-bottom: 2rem; */
 }
-.header .soc img {
-  padding-left: 10px;
+.soc a {
+  margin-left: 10px;
+}
+.soc:nth-child(3) img {
+  border-radius: 45%;
 }
 .header h4 {
   font-size: 19px;
@@ -561,10 +564,6 @@ footer .third a {
   font-size: 2.1em;
   color: #fff;
   text-decoration: none;
-}
-
-footer .third .soc img {
-  padding-left: 10px;
 }
 
 /* modal1 */
