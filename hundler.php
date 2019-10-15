@@ -362,9 +362,9 @@ if ($_POST['kwiz_f'])
 
 if($_POST['send_f'])
 {
-  $to = "ivnpotolok@gmail.ru";
+  $to = "vaster399@gmail.ru";
   $subject = "Заявка";
-  $from = "Оконный-страж <root@Оконный-страж.рф>";
+  $from = "Доступные потолки <root@ivnpotolok.ru>";
   $charset = "utf-8";
   $headerss ="From: ".$from."\r\n";
   $headerss .="Content-type: text/html; charset=$charset\r\n";

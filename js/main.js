@@ -42,6 +42,12 @@ function calc(length, width, lamps, angles, pipes) {
 
   let price;
   let boxes = 0;
+  let perimeter = 0;
+
+  perimeter = (parseInt(length) + parseInt(width) + parseInt(length) + parseInt(width));
+  console.log(perimeter);
+  perimeter *= 150;
+  square += perimeter;
 
   $(`.check-boxes input[type='checkbox']:checked`).each(function () {
     boxes += parseInt($(this).attr('value'));
