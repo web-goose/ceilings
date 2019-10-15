@@ -110,54 +110,67 @@
         <div class="col-12 text-center">
           <h2>Расчитайте стоимость</h2>
         </div>
-        <div class="calculator-wrapper mx-auto" oninput='calc(range1.value, range2.value, range3.value, range4.value);'>
+        <div class="calculator-wrapper mx-auto"
+          oninput='calc(range1.value, range2.value, range3.value, range4.value, range5.value);'>
           <div class="col-12 text-center radio-buttons">
             <label class="custom-control custom-radio custom-control-inline">
               <input class="radio" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="economy" checked>
               <span class="checkmark"></span>
               <label for="inlineRadio1">Эконом</label>
-              <span data-toggle="tooltip" data-placement="top" title="Tooltip on top">?</span>
+              <span data-toggle="tooltip" data-placement="top"
+                title="Пленка для натяжного потолка бюджетного сегмента, кабель используемый для разведения электрики ШВВП 2*0,75, Эконом вариант закладных. Гарантия, в т.ч. сервисная 1 год.">?</span>
             </label>
             <label class="custom-control custom-radio custom-control-inline">
               <input class="radio" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="standart">
               <span class="checkmark"></span>
               <label for="inlineRadio2">Стандарт</label>
-              <span data-toggle="tooltip" data-placement="top" title="Tooltip on top">?</span>
+              <span data-toggle="tooltip" data-placement="top" title="Пленка для натяжного потолка от производителя MSD (Информация и сертикаты на сайте производителя), кабель используемый для разведения электрики ГОСТ ВВГ 2*1,1,15(включая самозажимные клеммы тип `
+                WAGO`). Закладные и универсальные платформы ПВХ высшего класса качества . Гарантия, в т.ч. сервисная 3
+                года.">?</span>
             </label>
             <label class="custom-control custom-radio custom-control-inline">
               <input class="radio" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="lux">
               <span class="checkmark"></span>
               <label for="inlineRadio3">Люкс</label>
-              <span data-toggle="tooltip" data-placement="top" title="Tooltip on top">?</span>
+              <span data-toggle="tooltip" data-placement="top" title="Пленка для натяжного потолка от производителя MSD - Premium (Информация и сертикаты на сайте производителя), кабель используемый для разведения электрики ГОСТ ВВГ 2*1,5(включая самозажимные клеммы тип `
+                WAGO`), заводится в гофру для обеспечения пожарной безопасности.. Информация и сертикаты на сайте
+                производителя. Гарантия, в т.ч. сервисная 5 лет.">?</span>
             </label>
           </div>
 
           <div class="col-12 text-center">
             <div class="range-slider">
-              <label>Площадь м <sup>2</sup></label>
+              <label>Длина м.</label>
               <div class="col-12">
                 <input type="range" oninput="onChange(this)" id="range1" class="slider" value="0" min="0" max="30">
                 <span class="">0</span>
               </div>
             </div>
             <div class="range-slider">
-              <label>Кол-во светильников</label>
+              <label>Ширина м.</label>
               <div class="col-12">
                 <input type="range" oninput="onChange(this)" id="range2" class="slider" value="0" min="0" max="30">
+                <span class="">0</span>
+              </div>
+            </div>
+            <div class="range-slider">
+              <label>Кол-во светильников</label>
+              <div class="col-12">
+                <input type="range" oninput="onChange(this)" id="range3" class="slider" value="0" min="0" max="30">
                 <span class="range-value">0</span>
               </div>
             </div>
             <div class="range-slider">
               <label>Кол-во углов</label>
               <div class="col-12">
-                <input type="range" oninput="onChange(this)" id="range3" class="slider" value="0" min="0" max="10">
+                <input type="range" oninput="onChange(this)" id="range4" class="slider" value="0" min="0" max="10">
                 <span class="range-value">0</span>
               </div>
             </div>
             <div class="range-slider">
               <label>Кол-во труб, уходящих в потолок</label>
               <div class="col-12">
-                <input type="range" oninput="onChange(this)" id="range4" class="slider" value="0" min="0" max="10">
+                <input type="range" oninput="onChange(this)" id="range5" class="slider" value="0" min="0" max="10">
                 <span class="range-value">0</span>
               </div>
             </div>

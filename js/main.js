@@ -11,31 +11,32 @@ function onChange(param) {
   $(`#${param.id}`).siblings().text(param.value);
 };
 
-function calc(a, b, c, d) {
+function calc(length, width, lamps, angles, pipes) {
 
-  if (c > 4) {
-    cc = c - 4;
-    c = cc * 150;
+  if (angles > 4) {
+    cc = angles - 4;
+    angles = cc * 150;
   }
   else
-    c = 0;
+    angles = 0;
 
-  d = parseInt(d) * 150;
+  pipes = parseInt(pipes) * 150;
+  square = 0;
 
   let option = $('.radio-buttons input[type="radio"]:checked').val();
 
   switch (option) {
     case 'economy':
-      a = parseInt(a) * 290;
-      b = parseInt(b) * 300;
+      square = parseInt(length) * parseInt(width) * 160;
+      lamps = parseInt(lamps) * 300;
       break;
     case 'standart':
-      a = parseInt(a) * 370;
-      b = parseInt(b) * 400;
+      square = parseInt(length) * parseInt(width) * 200;
+      lamps = parseInt(lamps) * 400;
       break;
     case 'lux':
-      a = parseInt(a) * 470;
-      b = parseInt(b) * 500;
+      square = parseInt(length) * parseInt(width) * 270;
+      lamps = parseInt(lamps) * 500;
       break;
   }
 
@@ -46,7 +47,7 @@ function calc(a, b, c, d) {
     boxes += parseInt($(this).attr('value'));
   })
 
-  price = a + b + c + d + boxes;
+  price = square + angles + pipes + lamps + boxes;
   $('#result').text(`${price}` + " руб.");
 }
 
