@@ -45,7 +45,6 @@ function calc(length, width, lamps, angles, pipes) {
   let perimeter = 0;
 
   perimeter = (parseInt(length) + parseInt(width) + parseInt(length) + parseInt(width));
-  console.log(perimeter);
   perimeter *= 150;
   square += perimeter;
 
