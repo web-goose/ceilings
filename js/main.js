@@ -53,6 +53,8 @@ function calc(length, width, lamps, angles, pipes) {
   })
 
   price = square + angles + pipes + lamps + boxes;
+  if (price < 3000)
+    price = 3000;
   $('#result').text(`${price}` + " руб.");
 }
 
